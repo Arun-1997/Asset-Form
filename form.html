@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link rel="stylesheet" type="text/css" href="form.css">
+<script src = "form.js"></script>
+<title> Asset form !! </title>
+</head>
+<body>
+<div class = "main">
+      <form>
+        <div class="container">
+          <h1 id = "header1">Create Assets !!</h1>
+          <!-- <p>Please fill in this form to create an account.</p> -->
+          <hr>
+          <div class = "textarea">
+              <label><b>Asset Type</b></label>
+              <br><br>
+              <select id = "dropdown" type="text" placeholder="Enter Asset Type" required>
+                  <option>Asset 1 </option>
+                  <option>Asset 2 </option>
+                  <option>Asset 3 </option>
+                  <option>Asset 4 </option>
+              </select>
+              <br><br>
+
+              <label><b>Asset Name</b></label>
+              <input type="text" placeholder="Enter Asset Name" required>
+
+              <label><b>Equipment ID</b></label>
+              <input type = "text" placeholder="Enter Equipment ID" required>
+
+              <label ><b>Latitude</b></label>
+              <input type="text" placeholder="Enter Latitude" required>
+
+              <label><b>Longitude</b></label>
+              <input type="text" placeholder="Enter Longitude" required>
+
+              <label><b>Remarks</b></label>
+              <input type = "text" placeholder="Enter your remarks !!" required>
+          </div>
+          <hr>
+
+          <button onclick = "create()" type="submit" class="registerbtn">Create</button>
+        </div>
+      </form>
+</div>
+
+</body>
+</html>
